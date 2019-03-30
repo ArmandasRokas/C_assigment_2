@@ -1,4 +1,4 @@
-### Code explanation
+### Code explanation of even_odd function
 The code is very simple. It has counters for total sum of even number odd number and the count of them. 
 When user exits terminates the progam it just divides sum by count and that how it calculates the avarge. 
 #### Dificulties  
