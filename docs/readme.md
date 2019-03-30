@@ -9,7 +9,7 @@ When user exits decides to terminate the progam it divides the sum of even/odd n
 ### Difficulties  
 There was a bug which was caused by division by 0, when no even or odd numbers was added. The bug is fixed by adding extra selection statments at the end of program, which checks if  the number of times entered even/add numbers is not equal to 0. 
 ### Flow diagram of even_odd function
-![alt text](https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/flowchart_even_odd.jpg "flowchart_even_odd")
+![alt text](flowchart_even_odd.jpg "flowchart_even_odd")
 
 ## Goldbach function
 
