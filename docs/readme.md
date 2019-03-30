@@ -31,4 +31,4 @@ Again the function takes n as paramater, iterates n/2 and uses modulus to define
 ## IsRightTriangle function
 The function takes three numbers as paramter and uses Pythagorean theorem to find out if there exist a right triangle
 ### The flowchart of goldbach function
-
+![alt text](flowchart_isRightTriangle.jpg "flowchart_isRightTriangle")
