@@ -24,4 +24,4 @@ There was a bug which was caused by division by 0, when no even or odd numbers w
 ## IsPrime function
 
 ### Flow diagram of isPrime function
-![alt text](https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/flowchart_isPrime.jpg "flowchart_isPrime")
+![alt text](https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/flowchart_isPrime.png "flowchart_isPrime")
