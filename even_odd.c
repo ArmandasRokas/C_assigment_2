@@ -7,12 +7,11 @@
 void goldbach(int n);
 int isPrime(int n);
 int canBeRepresentedAsSumOfTwoPrimes(int n);
-// function main begins program execution
 int main()
 {
     int isFirstNumber = 1;
     int firstNum;
-    int odd_total = 0, even_total = 0; // keeps value of index of the latest element and the number of total elements in odd array and even array
+    int odd_total = 0, even_total = 0;
     int sum_even = 0, sum_odd = 0;
     int enteredInteger;
 
@@ -61,35 +60,32 @@ int main()
     } else {
         printf("Cannot compute goldbach\n");
     }
-} // end function main
+}
 
 void goldbach(int n){
-    for(int i = n; i > 0; i--){
-        if(canBeRepresentedAsSumOfTwoPrimes(i) == 0){
-            printf("%d\n", i);
+    for( ; n > 0; n--){
+        if(canBeRepresentedAsSumOfTwoPrimes(n) == 0){
+            printf("%d\n", n);
         }
     }
 }
 
 int canBeRepresentedAsSumOfTwoPrimes(int n){
-    int result = 0;
     for(int i = 2; i <= n/2; i++){ // start functioning from n = 4, because 1, 2, 3 cannot be represented as the sum of two primes. 4 can , because  2+2 are primes
         if(isPrime(i) == 1){ // for all prime numbers less than half of number.
             if(isPrime(n-i) == 1){
-                result = 1;
+                return 1;
             }
         }
     }
-    return result;
+    return 0;
 }
 int isPrime(int n){
-    int isPrime = 1;
     for(int i = 2; i <= n/2; i++){
         if(n % i == 0){
-            isPrime = 0;
-            break;
+            return 0;
         }
     }
-    return isPrime;
+    return 1;
 }
 
