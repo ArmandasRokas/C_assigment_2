@@ -4,4 +4,4 @@ When user exits terminates the progam it just divides sum by count and that how 
 #### Dificulties  
 Intresting part part that I should check if the total numbers of even numbers and odd numbers is not equal to 0. Unless it gets division by zero exception, which was hard to find.  
 
-![alt text](https://github.com/ArmandasRokas/C_assigment_2/edit/master/docs/flowchart_even_odd.jpg "flowchart_even_odd")
+![alt text](https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/flowchart_even_odd.jpg "flowchart_even_odd")
