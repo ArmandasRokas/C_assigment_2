@@ -1,9 +1,10 @@
 # C assignment 2
 03/30/2019  
 Armandas Rokas
+
 ## Even_odd.c
 ### Explanation of even_odd function
-The code is very simple. It has counters for total sum of even number odd number and the count of them. 
+The code is very simple. It has counters for the total sum of even number odd number and the count of them. 
 When user exits terminates the progam it just divides sum by count and that how it calculates the avarge. 
 ### Difficulties  
 I had some problem finding the bug which was caused by division by 0, when no even or odd numbers was added. 
