@@ -11,4 +11,6 @@ There was a bug which was caused by division by 0, when no even or odd numbers w
 ### Flow diagram
 ![alt text](https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/flowchart_even_odd.jpg "flowchart_even_odd")
 
+## Goldbach
+
 
