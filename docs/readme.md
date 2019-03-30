@@ -1,6 +1,6 @@
 # C assignment 2
 03/30/2019  
-Armandas Rokas
+Armandas Rokas  
 Github readme link https://github.com/ArmandasRokas/C_assigment_2/blob/master/docs/readme.md 
 ## Even_odd.c
 ### Explanation of even_odd function
