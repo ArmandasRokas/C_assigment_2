@@ -16,8 +16,8 @@ int main()
     int enteredInteger;
 
     while(1){
-     //   puts("Enter any interger or 0 for exit program:"); // prompt
-     //   fflush( stdout ); // executes printf before scanf
+        puts("Enter any interger or 0 for exit program:"); // prompt
+        fflush( stdout ); // executes printf before scanf
         scanf("%d", &enteredInteger); // read an enteredInteger
 
         if(isFirstNumber){ // saves only the first number
@@ -30,36 +30,32 @@ int main()
         }
 
         if((enteredInteger % 2) == 0){
-      //      puts("You entered even number.");
+            puts("You entered even number.");
             even_total++;
             sum_even += enteredInteger;
         } else {
-      //      puts("You entered odd number.");
+            puts("You entered odd number.");
             odd_total++;
-            sum_odd += enteredInteger;
+            odd_total += enteredInteger;
         }
     }
 
-//   printf("Total number of even integers: %d\n", even_total);
-    printf("%d \n", even_total);
+    printf("Total number of even integers: %d\n", even_total);
+    printf("Total number of odd integers: %d\n", odd_total);
     if(even_total == 0){
         puts("Program can not calculate the average of even numbers, because no even number entered.");
     } else {
-//      printf("The average value of the even integers: %d\n", sum_even/even_total);
-        printf("%d \n", sum_even/even_total);
+        printf("The average value of the even integers: %d\n", sum_even/even_total);
     }
 
-//    printf("Total number of odd integers: %d\n", odd_total);
-    printf("%d \n", odd_total);
     if(odd_total == 0){
         puts("Program can not calculate the average of odd numbers, because no odd number entered.");
     } else {
-//        printf("The average value of the odd integers: %d\n", sum_odd/odd_total);
-        printf("%d \n", sum_odd/odd_total);
+        printf("The average value of the odd integers: %d\n", sum_odd/odd_total);
     }
 
     if(firstNum != 0){
-//        printf("Printing goldbach:\n");
+        printf("Printing goldbach:\n");
         goldbach(firstNum);
     } else {
         printf("Cannot compute goldbach\n");
@@ -69,7 +65,7 @@ int main()
 void goldbach(int n){
     for( ; n > 0; n--){
         if(canBeRepresentedAsSumOfTwoPrimes(n) == 0){
-            printf("%d \n", n);
+            printf("%d\n", n);
         }
     }
 }
